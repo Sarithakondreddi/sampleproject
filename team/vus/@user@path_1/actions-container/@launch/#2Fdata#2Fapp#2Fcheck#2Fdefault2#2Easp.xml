@@ -1,0 +1,71 @@
+<http-page executeResourcesDynamically="false"
+    name="/data/app/check/default2.asp" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/03260a83-dba1-4233-a2b5-a77d830f5096.zip"
+    slaProfileEnabled="false" thinkTime="41936"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="03260a83-dba1-4233-a2b5-a77d830f5096">
+    <embedded-action>1a3013a1-0fcc-45dd-88d2-809d64d0d3f5</embedded-action>
+    <embedded-action>7b94cbda-3bd2-4af8-9231-6f41a5179996</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_03260a83-dba1-4233-a2b5-a77d830f5096.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/data/app/check/default2.asp"
+    path="/data/app/check/default2.asp" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/03260a83-dba1-4233-a2b5-a77d830f5096.zip"
+    recordedResponseCode="302" responseSize="898"
+    serverUid="md5.hackerwatch.org" slaProfileEnabled="false"
+    uid="1a3013a1-0fcc-45dd-88d2-809d64d0d3f5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1a3013a1-0fcc-45dd-88d2-809d64d0d3f5.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1a3013a1-0fcc-45dd-88d2-809d64d0d3f5.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="C400104D8A938244E38FDE7A5CDE3674168D8BFA49513A12F4ED94A37057B676C9C88E83EC8BAE198936AF71B2729FE74D6627122EE33CA2543DD4D9497CEE250B0CD69CFDF18CD55B982CB5E754FB3D1237626AC926806239605D00B2C3CCE45C52B919729F5EAD9093F7F8C0D47ABA361869A68E95ECEC81B9A612EA773E82AC32F804A147B40348539FA2BB5C5B3E0BD2E197C9EBFDEB4C2CB713B21C93C2041D55CD57F8A96F1277F49133C596F954153F25DF40E8249C1DD419BBCBE51E84037742723837A030D9A8E0FBC168F8A163F4312FFCFE27BD44FE62773D40EFA5E1CEC77661B39BF4602495A32834B26E695B31D71EBEB28348669B125EE058733C6BB3221452359F047D928E1DA1424E4599D0904F33235B30D21F946570CFED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3C"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Host" value="md5.hackerwatch.org"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="User-Agent" value="MPFv"/>
+    <responseHeaders>HTTP/1.1 302 Object moved&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html&#xd;
+Location: ../checknet/default.aspx?C400104D8A938244E38FDE7A5CDE3674168D8BFA49513A12F4ED94A37057B676C9C88E83EC8BAE198936AF71B2729FE74D6627122EE33CA2543DD4D9497CEE250B0CD69CFDF18CD55B982CB5E754FB3D1237626AC926806239605D00B2C3CCE45C52B919729F5EAD9093F7F8C0D47ABA361869A68E95ECEC81B9A612EA773E82AC32F804A147B40348539FA2BB5C5B3E0BD2E197C9EBFDEB4C2CB713B21C93C2041D55CD57F8A96F1277F49133C596F954153F25DF40E8249C1DD419BBCBE51E84037742723837A030D9A8E0FBC168F8A163F4312FFCFE27BD44FE62773D40EFA5E1CEC77661B39BF4602495A32834B26E695B31D71EBEB28348669B125EE058733C6BB3221452359F047D928E1DA1424E4599D0904F33235B30D21F946570CFED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3C&#xd;
+Server: Microsoft-IIS/8.5&#xd;
+Set-Cookie: ASPSESSIONIDQCRCQCTT=CGCKKGEEFIDLBIKPOKOMIKJF; path=/&#xd;
+Date: Sat, 19 Oct 2019 16:29:36 GMT&#xd;
+Content-Length: 898</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/data/app/checknet/default.aspx"
+    path="/data/app/checknet/default.aspx" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/03260a83-dba1-4233-a2b5-a77d830f5096.zip"
+    recordedResponseCode="200"
+    refererUid="1a3013a1-0fcc-45dd-88d2-809d64d0d3f5" responseSize="21"
+    serverUid="md5.hackerwatch.org" slaProfileEnabled="false"
+    uid="7b94cbda-3bd2-4af8-9231-6f41a5179996" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7b94cbda-3bd2-4af8-9231-6f41a5179996.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7b94cbda-3bd2-4af8-9231-6f41a5179996.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="C400104D8A938244E38FDE7A5CDE3674168D8BFA49513A12F4ED94A37057B676C9C88E83EC8BAE198936AF71B2729FE74D6627122EE33CA2543DD4D9497CEE250B0CD69CFDF18CD55B982CB5E754FB3D1237626AC926806239605D00B2C3CCE45C52B919729F5EAD9093F7F8C0D47ABA361869A68E95ECEC81B9A612EA773E82AC32F804A147B40348539FA2BB5C5B3E0BD2E197C9EBFDEB4C2CB713B21C93C2041D55CD57F8A96F1277F49133C596F954153F25DF40E8249C1DD419BBCBE51E84037742723837A030D9A8E0FBC168F8A163F4312FFCFE27BD44FE62773D40EFA5E1CEC77661B39BF4602495A32834B26E695B31D71EBEB28348669B125EE058733C6BB3221452359F047D928E1DA1424E4599D0904F33235B30D21F946570CFED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3CED69DE032B7F3D3C"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Cookie" value="ASPSESSIONIDQCRCQCTT=CGCKKGEEFIDLBIKPOKOMIKJF"/>
+    <header name="Host" value="md5.hackerwatch.org"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="User-Agent" value="MPFv"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: private&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Server: Microsoft-IIS/8.5&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+Date: Sat, 19 Oct 2019 16:29:36 GMT&#xd;
+Content-Length: 21</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
